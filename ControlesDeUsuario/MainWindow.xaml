@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="38,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Elige una figura"/><Run Text=":"/></TextBlock>
-        <ComboBox x:Name="comboxTitulo" HorizontalAlignment="Left" Margin="38,54,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboxTitulo_SelectionChanged">
+        <ComboBox x:Name="cbFigura" HorizontalAlignment="Left" Margin="38,54,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboxTitulo_SelectionChanged">
             <ComboBoxItem>Círculo</ComboBoxItem>
             <ComboBoxItem>Triángulo</ComboBoxItem>
             <ComboBoxItem>Rectángulo</ComboBoxItem>
@@ -16,8 +16,8 @@
             <ComboBoxItem>Cuadrado</ComboBoxItem>
             <ComboBoxItem>Trapecio</ComboBoxItem>
         </ComboBox>
-        <Button Content="Calcular área" HorizontalAlignment="Left" Margin="197,57,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBlock HorizontalAlignment="Left" Margin="301,55,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" FontSize="16"/>
+        <Button Content="Calcular área" HorizontalAlignment="Left" Margin="197,57,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" x:Name="lblResultado" Margin="301,55,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" FontSize="16"/>
         <Grid x:Name="grdParametrosFigura" HorizontalAlignment="Left" Height="100" Margin="38,99,0,0" VerticalAlignment="Top" Width="284"/>
 
     </Grid>

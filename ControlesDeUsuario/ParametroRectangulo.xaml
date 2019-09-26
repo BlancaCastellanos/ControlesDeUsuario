@@ -9,8 +9,8 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="1,1,0,0" TextWrapping="Wrap" Text="Base:" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="143,2,0,0" TextWrapping="Wrap" Text="Altura:" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="1,30,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="143,30,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" x:Name="tbBaseRec" Height="23" Margin="1,30,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" x:Name="tbAlturaRec" Height="23" Margin="143,30,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </UserControl>
